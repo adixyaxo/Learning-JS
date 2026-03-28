@@ -11,7 +11,7 @@ var st2 = 'This is a string in sq'
 var num1 = 34;
 var num2 = 35;
 
-var marks = {
+var marks = { // this is an object 
     ravi: 34,
     mavi: 35,
     savi: 56,
@@ -40,6 +40,19 @@ console.log(null_var);
 
 // At high level in js we have two kinds of data types 
 /*
-1 . Primitive
-2 . Refrence data types
+1 . Primitive data types - 6 Types ie undefined, null, number, string, boolean, symbol
+2 . Refrence data types - Arrays and Objects
+
 */
+
+var arr = [1, undefined, null, "hello nigga", true, 3.14];
+console.log(arr);
+
+// Operators in Javascript 
+// Arthematic Operators 
+var a = 35;
+var b = 45;
+console.log("The value of a + b is ", a + b);
+console.log("The value of a - b is ", a - b);
+console.log("The value of a * b is ", a * b);
+console.log("The value of a / b is ", a / b);
