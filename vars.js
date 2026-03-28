@@ -71,3 +71,8 @@ console.log("Is a greater than b?", a > b);
 console.log("Is a less than b?", a < b);
 console.log("Is a greater than or equal to b?", a >= b);
 console.log("Is a less than or equal to b?", a <= b);
+
+// Logical Operators
+console.log(true && false); // Logical AND // dono true => true ek false => false
+console.log(true || false); // Logical OR // ek true => true dono false => false 
+console.log(!true); // Logical NOT 
