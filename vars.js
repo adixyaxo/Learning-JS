@@ -56,3 +56,18 @@ console.log("The value of a + b is ", a + b);
 console.log("The value of a - b is ", a - b);
 console.log("The value of a * b is ", a * b);
 console.log("The value of a / b is ", a / b);
+// Assignment Operators
+var c = b;
+c += 2;
+c -= 2;
+c *= 2;
+c /= 2;
+console.log(c);
+
+// Comparison Operators
+console.log("Is a equal to b?", a === b);
+console.log("Is a not equal to b?", a !== b);
+console.log("Is a greater than b?", a > b);
+console.log("Is a less than b?", a < b);
+console.log("Is a greater than or equal to b?", a >= b);
+console.log("Is a less than or equal to b?", a <= b);
