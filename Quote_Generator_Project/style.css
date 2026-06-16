@@ -1,0 +1,40 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter',sans-serif;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  width: 40vw;
+  height: 40vh;
+  background-color: whitesmoke;
+  border-radius: 10px;
+
+}
+
+.header{
+  margin-top: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}

@@ -67,3 +67,9 @@ myButton2.addEventListener('click', () => {
 // - Use textContent when inserting plain text only (safer and faster).
 // - Use innerHTML only when you need to insert HTML markup.
 // - Prefer addEventListener for multiple handlers and clearer separation.
+
+
+// Event Propagation
+// 1. Event Capturing
+// 2. Target
+// 3. Event Bubbling
