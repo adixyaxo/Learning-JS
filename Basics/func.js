@@ -1,6 +1,6 @@
 // Learning to make functions in JavaScript
 
-// A function is a reusable block of code that performs a specific task. 
+// A function is a reusable block of code that performs a specific task.
 // Functions can take inputs (called parameters) and can return outputs.
 
 function avg(a, b) {
