@@ -1,5 +1,5 @@
-"use strict"; // treat all js code as newer version 
-// alert("hello"); will give error as we are not on browser 
+"use strict"; // treat all js code as newer version
+// alert("hello"); will give error as we are not on browser
 // Data types in js
 // strings
 var st1 = "This is a string in dq"
@@ -37,7 +37,7 @@ console.log(null_var);
 
 // At high level in js we have two kinds of data types
 /*
-1 . Primitive data types - 6 Types ie undefined, null, number, string, boolean, symbol
+1 . Primitive data types - 7 Types ie undefined, null, number, string, boolean, symbol, Bigint
 2 . Refrence data types - Arrays and Objects
 
 */
