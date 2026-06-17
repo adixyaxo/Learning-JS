@@ -2,6 +2,8 @@
 const c = 100;
 let x = 10;
 var y = 10;
+let BigNumber = 100n;
+console.log(typeof BigNumber)
 account_state = "works"; //works but dont use it
 let und;// automatically set to undefined
 {
