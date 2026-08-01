@@ -1,3 +1,12 @@
+/*
+Type guards and discriminated unions
+- Type guards help TypeScript narrow a value to a safer type.
+- `instanceof` checks class instances.
+- Custom guards let us check object shapes.
+- A discriminated union uses a shared property like `type` to decide the shape.
+Real web use: handling different API response formats or order types in a dashboard.
+*/
+
 // Learning About Gaurd Rails
 
 class Kulladh {

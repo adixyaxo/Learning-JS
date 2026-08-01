@@ -1,3 +1,12 @@
+/*
+Unions, any, unknown, and never
+- `|` lets a value be one of several types.
+- `any` is flexible but unsafe, so it should be avoided when possible.
+- `unknown` is safer because we must check it before using it.
+- `never` means a function should never return normally.
+Real web use: handling API states, form values, and error paths in production apps.
+*/
+
 // Unions
   let subs:number | string = 10
 

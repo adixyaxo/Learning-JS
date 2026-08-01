@@ -1,3 +1,11 @@
+/*
+Type annotation vs type inference
+- Annotation means we tell TypeScript the type directly.
+- Inference means TypeScript guesses the type from the value.
+- In practice, inference is often enough, but annotations make intent clear.
+Real web use: when building forms, we often want clear types for user input and API data.
+*/
+
 // Annotation Matlab Mei Samjhaunga
 // Inference matlab apne app samajh jao
 

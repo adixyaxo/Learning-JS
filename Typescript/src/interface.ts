@@ -1,3 +1,12 @@
+/*
+Interfaces and object shapes
+- An object type describes the shape of data.
+- `readonly` protects values from accidental changes.
+- `?` makes a property optional.
+- `&` combines types, and `|` allows multiple possible shapes.
+Real web use: product objects, API responses, and user profiles.
+*/
+
 type ChaiOrder = {
   type:string
   sugar:number

@@ -1,3 +1,11 @@
+/*
+Assertions, unknown, and error handling
+- Type assertions tell TypeScript to trust us for a type, but they should be used carefully.
+- `unknown` is safer than `any` because it forces us to verify the value first.
+- `Error` checks make runtime error handling more predictable.
+Real web use: parsing API data and handling unexpected values in strong apps.
+*/
+
 let response: any = "42";
 
 let numericLength:number = (response as string).length
